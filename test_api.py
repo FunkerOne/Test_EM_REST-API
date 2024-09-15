@@ -10,7 +10,7 @@ class TestGithubApi:
     BASE_URL = 'https://api.github.com'
     TOKEN = os.getenv('TOKEN')
     TEST_REPO_NAME = os.getenv('TEST_REPO_NAME')
-    USERNAME = os.getenv('USER')
+    USERNAME = os.getenv('USER_NAME')
 
     def setup_method(self):
         self.headers = {
